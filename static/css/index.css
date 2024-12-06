@@ -1,0 +1,673 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-style: arial;
+}
+
+body {
+
+    background-color: rgb(235, 225, 235);
+
+    header {
+
+        height: 96px;
+
+
+        .nav {
+
+
+            height: 64px;
+            width: 100%;
+            background-color: #131921;
+            display: flex;
+            justify-content: space-evenly;
+
+
+
+            /* Code for Amazon logo */
+
+
+            .logo {
+
+                display: flex;
+                margin-top: 10px;
+
+                .logo_image {
+
+                    background-image: url(../logos/amazon_.png);
+                    height: 40px;
+                    width: 90px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    z-index: 1;
+
+                }
+
+
+
+            }
+
+
+
+
+
+
+            /* code for location */
+
+
+            .location {
+                height: 40px;
+                width: 160px;
+                margin-top: 10px;
+            }
+
+
+            #deliver {
+
+                color: white;
+                font-size: 10px;
+                margin-left: 15px;
+                display: block;
+            }
+
+            .p {
+                color: white;
+                font-size: 14px;
+                font-style: bolder;
+                font-weight: 700;
+                padding-top: -10px;
+
+
+
+                span {
+
+                    color: white;
+                }
+
+            }
+
+            /* code for search bar */
+
+
+
+            .search {
+
+                display: flex;
+                height: 36px;
+                margin-top: 6px;
+
+
+
+                select {
+
+                    font-size: 12px;
+                    border-top-left-radius: 4px;
+                    border-bottom-left-radius: 4px;
+                    width: 40px;
+                    height: 36px;
+
+                }
+
+
+                input {
+
+                    width: 490px;
+                    height: 36px;
+                    font-size: 14px;
+                }
+
+                .search_icon {
+
+                    background-color: #febd69;
+                    width: 40px;
+                    height: 36px;
+                    font-size: 24px;
+                    border-top-right-radius: 4px;
+                    border-bottom-right-radius: 4px;
+
+                }
+            }
+
+
+
+            /* code for language */
+
+            .language {
+                margin-top: 10px;
+
+
+                select {
+
+
+                    font-size: 14px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    margin-top: 20px;
+                    background-color: #131921;
+                    color: white;
+                    border: none;
+
+
+
+                }
+            }
+
+
+
+            .sign_in {
+                margin-top: 10px;
+            }
+
+
+
+            .Return {
+                margin-top: 10px;
+            }
+
+
+            .cart {
+
+                margin-top: 5px;
+
+                height: 40px;
+                width: 40px;
+                font-size: 30px;
+                color: white;
+            }
+
+
+
+            .border_:hover {
+
+                border: 1.90px solid white;
+            }
+
+            .border__:hover {
+
+                border: 1.90px solid rgb(242, 225, 111);
+                border-bottom: 1.90px solid rgb(242, 225, 111);
+                border-radius: 4px;
+            }
+
+
+
+            .amazon_section {
+
+
+
+                display: flex;
+                justify-content: space-between;
+                background-color: #232f3e;
+                width: 100%;
+                height: 35px;
+                /* margin-top: -2px; */
+
+                a {
+                    text-decoration: none;
+                    font-size: 12px;
+                    font-weight: 500;
+                    display: flex;
+                    justify-content: center;
+
+
+                    .nav-item {
+
+                        width: 80px;
+                        height: 34px;
+                        color: white;
+                        text-align: center;
+                        align-items: center;
+                        padding-bottom: -5px;
+
+                    }
+
+                }
+
+            }
+
+
+            .nav-item:hover {
+
+                border: 2px solid white;
+            }
+
+        }
+
+    }
+
+    main {
+
+
+        width: 100%;
+        margin-top: -10px;
+
+
+
+        /*------ Carousel------ */
+
+        .carousel-section {
+            width: 100%;
+            height: 420px;
+
+
+
+                  
+
+                }
+
+
+                .carousel-buttons {
+
+                    height: 20%;
+                    margin-top:-50px;
+
+                    
+                }
+            }
+        }
+
+
+
+
+        /*----- Cards----- */
+
+
+        .box-section {
+            /* background-color: #eeb21a; */
+
+            margin-top: -220px;
+            /* background-color: #d1d4d8; */
+
+            .boxes {
+
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+
+
+                .box {
+
+
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    flex-direction: row;
+                    margin-top: 20px;
+                    background-color: white;
+                    /* border: 1px solid black; */
+                    box-shadow: #131921;
+
+
+
+
+                    width: 300px;
+                    height: 380px;
+                    /* border: 0.90px solid black; */
+
+
+
+                    h2 {
+                        width: 290px;
+                        height: 20px;
+                        margin-top: 20px;
+                        font-size: 15px;
+                        font-weight: 740;
+
+                    }
+
+                    .one {
+
+                        width: 116px;
+                        height: 64px;
+
+
+
+
+                        .one_text {
+
+                            font-size: 11px;
+                            width: 100%;
+                            font-style: bold;
+                            font-weight: 500;
+
+                        }
+
+
+                        img {
+
+                            width: 100%;
+                            height: 100%;
+                        }
+
+
+
+                    }
+
+                    .See_more {
+
+                        width: 290px;
+                        font-size: 10px;
+                        padding-top: 60px;
+                    }
+                }
+            }
+        }
+
+
+        /* ------Scroll ------ */
+
+
+
+        article {
+
+            background-color: white;
+            margin-top: 10px;
+            padding-top: 10px;
+
+
+
+            h2 {
+                font-size: 18px;
+                font-weight: 700;
+
+                a {
+                    font-size: 12px;
+                    font-weight: 400;
+                    padding-left: 10px;
+                }
+            }
+
+            .roll {
+
+                overflow: auto;
+                background-color: rgb(255, 255, 255);
+                white-space: nowrap;
+                margin-top: 20px;
+                width: 100%;
+                height: 240px;
+
+
+
+                img {
+
+                    padding: 10px;
+                    object-fit: contain;
+                }
+
+
+
+            }
+        }
+
+
+
+        /* ---Personalised recommandations */
+
+        .p-r {
+
+
+            height: 120px;
+
+            background-color: white;
+
+
+            h2 {
+
+                font-size: 18px;
+                text-align: center;
+                font-weight: 700;
+
+            }
+
+
+
+
+            .Sign-in-button {
+                text-align: center;
+
+
+                button {
+                    width: 250px;
+                    height: 30px;
+                    font-size: 11px;
+                    font-weight: 700;
+                    border-radius: 4px;
+                    background-color: #eeb21a;
+                    border: none;
+
+
+
+                }
+            }
+
+            .new-customer {
+
+                font-size: 11px;
+                text-align: center;
+            }
+        }
+
+
+
+
+        /* ----Back to top--- */
+
+
+        .Back-to-top {
+
+            height: 46px;
+            background-color: #232f3e;
+            color: white;
+            font-size: 12px;
+            font-weight: 560;
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+
+
+    /* ---- Amazon services ---- */
+    .footer {
+
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #232F3E;
+        color: white;
+        padding-bottom: 50px;
+        padding-top: 20px;
+        margin-top: -14px;
+
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-top: 40px;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: 14px;
+            font-weight: 390;
+            margin-top: 14px;
+        }
+
+
+    }
+
+
+    footer {
+
+        .logo-division {
+
+
+            width: 100%;
+            grid-template-columns: auto auto;
+            justify-items: center;
+            background-color: #232F3E;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            border-top: 0.90px solid rgb(72, 72, 72);
+
+
+            .small-division {
+
+
+                display: flex;
+                justify-content: space-around;
+                width: 390px;
+
+
+                .small-logo {
+
+                    width: 70px;
+                    height: 84px;
+                    overflow: hidden;
+
+                    img {
+
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+
+
+                    }
+                }
+
+
+
+                .small-button {
+
+                    width: 237px;
+                    height: 33px;
+                    margin-top: 22px;
+
+                    display: flex;
+                    justify-content: space-evenly;
+
+                    button {
+
+                        width: 116px;
+                        height: 32px;
+
+                        font-size: 12px;
+                        background-color: #232F3E;
+                        color: white;
+                    }
+                }
+            }
+
+
+        }
+
+        /* ---- Amazon audible & prime servies------- */
+
+
+        .table-box {
+
+
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: #131A22;
+            color: #DDD;
+            padding-bottom: 30px;
+            padding-top: 40px;
+
+
+            .table {
+
+                width: 276px;
+
+
+                .head {
+
+                    font-size: 12px;
+                    font-family: sans-serif;
+                    font-weight: 400;
+                    margin-top: 10px;
+
+                }
+
+                p {
+                    font-size: 9px;
+                    margin-top: -12px;
+                }
+            }
+        }
+
+
+
+        /* Last final footer lines  */
+
+        .footer-section {
+            background-color: #131A22;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            border-top: 0.90px solid rgb(44, 45, 60);
+
+
+            .fs-box {
+
+
+                .fs-inbox {
+
+                    display: flex;
+                    flex-wrap: wrap;
+                    /* font-weight: 600; */
+
+                    ul {
+
+                        list-style-type: none;
+                        display: flex;
+                        color: white;
+                        width: 550px;
+                        margin-left: 40px;
+
+                        li {
+                            display: block;
+                            font-size: 10px;
+
+                            width: 210px;
+
+
+                        }
+
+
+                        .li-1 {
+
+                            width: 90px;
+                        }
+
+
+                        .li-2 {
+
+                            width: 100px;
+                        }
+                    }
+
+
+                }
+
+
+            }
+
+
+        }
+
+
+
+        p {
+
+            color: white;
+            font-size: 10px;
+            width: 100%;
+            text-align: center;
+        }
+
+
+    }
+
+}
